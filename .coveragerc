@@ -1,0 +1,6 @@
+[report]
+include =
+    src/chssp/*
+omit =
+    */test*
+    */upgrades/*
