@@ -17,5 +17,13 @@
       type="plone"
       directory="static"
       />
+	  
+ <browser:page
+      name="lesson_view"
+      for="*"
+	  class=".lesson.LessonView"
+      template="templates/lesson.pt"
+      permission="zope2.View"
+      />
 
 </configure>
