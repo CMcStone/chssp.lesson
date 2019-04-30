@@ -30,11 +30,6 @@ Install chssp.lesson by adding it to your buildout::
 and then running ``bin/buildout``
 
 
-Contribute
-----------
-
-- Issue Tracker: https://github.com/collective/chssp.lesson/issues
-- Source Code: https://github.com/collective/chssp.lesson
 
 
 
