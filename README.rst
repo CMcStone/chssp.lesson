@@ -29,7 +29,7 @@ Install chssp.lesson by adding it to your buildout::
 
 and then running ``bin/buildout``
 
-
+This package runs on Plone 4.  Pin jsonschema to 2.6.0
 
 
 
