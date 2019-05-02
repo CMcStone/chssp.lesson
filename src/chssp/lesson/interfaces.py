@@ -6,6 +6,9 @@ from zope.interface import Interface
 
 class ILesson(Interface):
     """Marker interface used for lesson objects"""
+    
+class ILesson6(Interface):
+    """Marker interface used for lesson objects"""
 
 
 class IChsspLessonLayer(IDefaultBrowserLayer):

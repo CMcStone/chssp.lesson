@@ -13,9 +13,9 @@
  <property name="filter_content_types">True</property>
  <property name="allowed_content_types"/>
  <property name="allow_discussion">False</property>
- <property name="default_view">document_view</property>
+ <property name="default_view">lesson_view</property>
  <property name="view_methods">
-  <element value="file_view"/>
+  <element value="document_view"/>
  </property>
  <property name="default_view_fallback">False</property>
  <property name="add_permission">plone.app.contenttypes.addDocument</property>
@@ -28,7 +28,7 @@
   <element
      value="plone.app.dexterity.behaviors.exclfromnav.IExcludeFromNavigation"/>
   <element value="plone.app.relationfield.behavior.IRelatedItems"/>
-  <element value="plone.app.contenttypes.behaviors.leadimage.ILeadImage"/>
+  
   <element value="collective.taxonomy.generated.gradelevel"/>
   <element value="collective.taxonomy.generated.subjectareas"/>
   <element value="collective.taxonomy.generated.contentstandards"/>
